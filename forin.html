@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h>For In</h>
+    <p>for in can loops over array values</p>
+
+    <p id="exercise"></p>
+
+    <script>
+      const numbers = [45, 4, 9, 16, 25];
+
+      let text = "";
+      for (let x in numbers) {
+        text += numbers[x] + "<br>";
+      }
+
+      document.getElementById("exercise").innerHTML = text;
+    </script>
+  </body>
+</html>

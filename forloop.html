@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h>For Loop</h>
+
+    <p id="motors"></p>
+
+    <script>
+      const cars = ["BMW", "Mercedes", "lexus", "Ford"];
+      let i, len, text;
+      for (i = 0, len = cars.length, text = ""; i < len; i++) {
+        text += cars[i] + "<br>";
+      }
+      document.getElementById("motors").innerHTML = cars;
+    </script>
+  </body>
+</html>

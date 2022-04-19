@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Arrays forEach()</h2>
+
+    <p></p>
+
+    <p id="fruits"></p>
+
+    <script>
+      const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+      let text = "<ul>";
+      fruits.forEach(myFunction);
+      text += "</ul>";
+      document.getElementById("fruits").innerHTML = text;
+
+      function myFunction(value) {
+        text += "<li>" + value + "</li>";
+      }
+    </script>
+  </body>
+</html>
