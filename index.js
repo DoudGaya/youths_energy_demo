@@ -10,6 +10,8 @@ document.getElementById("activities").style.fontSize = "xx-large";
 document.getElementById("OGOGG").style.backgroundColor = "violet";
 document.getElementById("OGOGG").style.fontSize = "xx-large";
 
-buttonn.addEventListener("onclick", function (buttonn) {
+function suFunc() {
   alert("Thak you");
-});
+}
+const buttonn = document.getElementById('')
+buttonn.addEventListener("mouseever", suFunc);
